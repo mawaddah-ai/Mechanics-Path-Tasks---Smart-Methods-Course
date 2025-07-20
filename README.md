@@ -1,11 +1,11 @@
 # Mechanics-Path-Tasks---Smart-Methods-Course
 this repository contains tasks of Mechanics paths with smart methods
 # all Mechanics tasks will  be in this repository 
-#TASK ONE :
+# TASK ONE :
 this task represents 3D robotic arm with 5 degrees of freedom
 
 
-#TASK TWO 
+# TASK TWO 
 # Warehouse Automation Robot
 
 This project represents a simple design of a mobile robot built for automating tasks in a food warehouse without human intervention.
