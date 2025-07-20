@@ -1,0 +1,12 @@
+
+ Third: Working Envelope Elements 
+
+| Element                | Value / Description                                  
+|------------------------|-----------------------------------------------------
+| Reach Radius           | Up to 1.5 meters for the robotic arm.               
+| Working Height         | From ground level up to 2.2 meters (for high shelving). 
+| Rotation Angle         | 360° base rotation; 180° per joint in the arm.      
+| Movement Speed         | Around 1 m/s (depending on floor type).             
+| Maximum Payload        | 10–15 kg per load.                                  
+| Positioning Accuracy   | ±1 cm during picking and placing tasks.             
+| Field of Vision        | 120° camera view + 360° sensor coverage.            

@@ -1,0 +1,28 @@
+1. Initial Setup:
+   - Scan the warehouse layout using LiDAR or vision-based mapping.
+   - Define the storage locations and loading/unloading zones.
+
+2. Inventory Management:
+   - Fetch inventory data from the warehouse management system (WMS).
+   - Schedule tasks: storing, retrieving, and sorting goods.
+
+3. Task Execution Loop:
+   For each task in task_queue:
+       a. Navigate to the location using path planning (A*, Dijkstra).
+       b. Identify target pallet/item using computer vision (QR/Barcode).
+       c. Pick up item using robotic arm with suction/gripper.
+       d. Navigate to target location (e.g., shelf, truck bay).
+       e. Place item securely.
+       f. Log task completion and update WMS.
+
+4. Recharging and Maintenance:
+   - Monitor battery level.
+   - Go to charging dock if <20% battery.
+   - Schedule self-diagnostics after N tasks.
+
+5. Emergency Handling:
+   - If obstacle or human detected → pause.
+   - If malfunction → alert system and move to safe zone.
+
+6. Continuous Learning:
+   - Optimize routes over time using reinforcement learning.
